@@ -9,6 +9,6 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "this is a change i mad lets sehh ok lets see if that worskbbvhvhise\n";
+    std::cout << "this is a change i mad lets sehhe\n";
     return 0;
 }
