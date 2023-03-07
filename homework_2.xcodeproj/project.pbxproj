@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D599A6829AC774F000C565D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D599A6729AC774F000C565D /* main.cpp */; };
+		2D599A7029B15E5E000C565D /* Dv_nozzle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D599A6F29B15E5E000C565D /* Dv_nozzle.cpp */; };
+		2D5FFA9629B72CFF007DFF4D /* nozzle_exact.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2D5FFA9529B72CFF007DFF4D /* nozzle_exact.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2D599A6429AC774F000C565D /* homework_2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = homework_2; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D599A6729AC774F000C565D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		2D599A6E29B15E5E000C565D /* Dv_nozzle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Dv_nozzle.hpp; sourceTree = "<group>"; };
+		2D599A6F29B15E5E000C565D /* Dv_nozzle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Dv_nozzle.cpp; sourceTree = "<group>"; };
+		2D5FFA9429B72CFF007DFF4D /* nozzle_exact.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = nozzle_exact.hpp; sourceTree = "<group>"; };
+		2D5FFA9529B72CFF007DFF4D /* nozzle_exact.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nozzle_exact.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				2D599A6729AC774F000C565D /* main.cpp */,
+				2D599A6F29B15E5E000C565D /* Dv_nozzle.cpp */,
+				2D599A6E29B15E5E000C565D /* Dv_nozzle.hpp */,
+				2D5FFA9529B72CFF007DFF4D /* nozzle_exact.cpp */,
+				2D5FFA9429B72CFF007DFF4D /* nozzle_exact.hpp */,
 			);
 			path = homework_2;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D5FFA9629B72CFF007DFF4D /* nozzle_exact.cpp in Sources */,
 				2D599A6829AC774F000C565D /* main.cpp in Sources */,
+				2D599A7029B15E5E000C565D /* Dv_nozzle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
